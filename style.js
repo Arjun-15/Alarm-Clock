@@ -14,7 +14,7 @@ const showTime = () =>{
     const date = new Date();
     h2.textContent = convertTimeString(date);
     alarmlist.forEach(alarm=>{
-        const hour = date.getHours();
+        const hour = date.getHours() > 12 ? date.getHours() - 12 : date.getHours();
         const min = date.getMinutes();
         const sec = date.getSeconds();
         const ampm = hour > 11 ? 'PM' : 'AM';
