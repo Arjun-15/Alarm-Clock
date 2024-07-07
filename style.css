@@ -1,0 +1,78 @@
+*{
+    background-color: lightblue;
+    color: #fff;
+}
+.total-container{
+    width: 100%;
+    height: auto;
+    /* background-color: #DDD; */
+    display: flex;
+}
+
+.center-container{
+    height: 800px;
+    width: 40%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 6rem;
+}
+.empty-container{
+    flex:0 0 auto;
+    width: 30%;
+}
+.alrem-list div{
+    display: flex;
+}
+.alrem-list h1{
+    width: 70%;
+    text-align: left;
+    margin: 0 0 0 5%;
+}
+.alrem-list button{
+    height: 25px;
+    margin: 1% 0%;
+}
+select {
+    word-wrap: normal;
+}
+.inputs{
+    text-align: left;
+    margin: 0px 0%;
+    width: 80%;
+}
+#input-time{
+    display: flex;
+    margin: 5%;
+}
+button{
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 3px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 0.4em 0.5em;
+    border-radius: 10px;
+    color: #fff;
+}
+select{
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 3px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 0.4em 1em;
+    border-radius: 10px;
+}
+#digital-time{
+    font-size: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 3px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    /* padding: 0.4em 0.4em; */
+    border-radius: 10px;
+    margin: 80px;
+}
