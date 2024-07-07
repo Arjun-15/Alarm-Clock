@@ -21,7 +21,7 @@ const showTime = () =>{
         if(alarm === `${convert2Digit(hour)}:${convert2Digit(min)}:${convert2Digit(sec)} ${ampm}`){
             debugger;
             const audio =document.createElement('audio');
-            audio.src = '../tone/mixkit-rooster-crowing-in-the-morning-2462.mp3';
+            audio.src = '/mixkit-rooster-crowing-in-the-morning-2462.mp3';
             audio.play();
         }
     })
