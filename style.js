@@ -17,7 +17,7 @@ const showTime = () =>{
         const hour = date.getHours() > 12 ? date.getHours() - 12 : date.getHours();
         const min = date.getMinutes();
         const sec = date.getSeconds();
-        const period = hour > 11 ? 'PM' : 'AM';
+        const period = date.getHours() > 11 ? 'PM' : 'AM';
         if(alarm === `${convert2Digit(hour)}:${convert2Digit(min)}:${convert2Digit(sec)} ${period}`){
             debugger;
             const audio =document.createElement('audio');
