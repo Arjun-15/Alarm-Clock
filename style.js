@@ -17,8 +17,8 @@ const showTime = () =>{
         const hour = date.getHours() > 12 ? date.getHours() - 12 : date.getHours();
         const min = date.getMinutes();
         const sec = date.getSeconds();
-        const ampm = hour > 11 ? 'PM' : 'AM';
-        if(alarm === `${convert2Digit(hour)}:${convert2Digit(min)}:${convert2Digit(sec)} ${ampm}`){
+        const period = hour > 11 ? 'PM' : 'AM';
+        if(alarm === `${convert2Digit(hour)}:${convert2Digit(min)}:${convert2Digit(sec)} ${period}`){
             debugger;
             const audio =document.createElement('audio');
             audio.src = '/mixkit-rooster-crowing-in-the-morning-2462.mp3';
